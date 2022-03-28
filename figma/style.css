@@ -1,9 +1,12 @@
-body {
-  margin: 10px;
+
+body{
+  
 }
-.box {
-  display: block;
+nav{
+  margin-right: 10px;
+  text-indent: 30px;
+  padding: 10px;
 }
-.green {
-  color: green;
-}
+li {
+  display: inline;
+  
