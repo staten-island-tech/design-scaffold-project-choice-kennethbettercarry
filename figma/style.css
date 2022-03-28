@@ -1,12 +1,24 @@
-
-body{
-  
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
-nav{
-  margin-right: 10px;
-  text-indent: 30px;
-  padding: 10px;
+nav {
+  display: flex;
+  border: 0.3rem;
+  margin-right: 1rem;
+  text-indent: 3rem;
+  padding: 1rem;
+  background-color: #3d3d3d;
 }
 li {
+  color: white;
   display: inline;
-  
+  font-size: 1rem;
+}
+.FirstScrollPage {
+  background-image: ;
+}
