@@ -8,10 +8,10 @@ body,
 }
 nav {
   display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
   border: 0.3rem;
-  margin-right: 1rem;
-  text-indent: 3rem;
-  padding: 1rem;
   background-color: #3d3d3d;
 }
 li {
@@ -20,5 +20,5 @@ li {
   font-size: 1rem;
 }
 .FirstScrollPage {
-  background-image: ;
+  background-image: url(/figma/pub/nyc.jpg);
 }
