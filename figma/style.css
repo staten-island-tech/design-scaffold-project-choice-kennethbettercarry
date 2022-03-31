@@ -19,11 +19,8 @@ li {
   display: inline;
   font-size: 3.5rem;
 }
+
 .headingthingy {
   font-size: 5rem;
   text-align: center;
-  box-sizing: border-box;
-}
-.FirstScrollPage {
-  background-image: url(/figma/pub/nyc.jpg);
 }
