@@ -21,6 +21,7 @@ li {
 }
 
 .headingthingy {
+  display: flex;
+  justify-content: center;
   font-size: 5rem;
-  text-align: center;
 }
