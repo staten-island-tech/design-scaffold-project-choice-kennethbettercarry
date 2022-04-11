@@ -17,11 +17,24 @@ nav {
 li {
   color: white;
   display: inline;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .headingthingy {
   display: flex;
   justify-content: center;
   font-size: 5rem;
+  background-image: url(pub/nyc.jpg);
+}
+h3 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.mapclass {
+  display: flex;
+}
+p {
+  font-size: 1rem;
 }
