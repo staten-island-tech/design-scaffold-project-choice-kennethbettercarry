@@ -25,7 +25,7 @@ li {
 .header-container {
   display: flex;
   justify-content: center;
-  background-image: url(/public/background.jpg);
+  background-image: url(/figma/pub/nyc.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
