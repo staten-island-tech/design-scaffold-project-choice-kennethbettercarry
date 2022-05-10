@@ -10,8 +10,11 @@ body,
   font-size: 62.5%;
 }
 nav {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  z-index: 10;
   padding: 2rem;
   margin: 0;
   border: 0.3rem;
@@ -37,6 +40,7 @@ li {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   color: white;
+  z-index: 0;
 }
 .description {
   float: left;
