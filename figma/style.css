@@ -55,8 +55,6 @@ li {
 .map {
   margin: 5%;
 }
-section {
-}
 h3 {
   font-size: 2.5rem;
 }
@@ -69,4 +67,20 @@ p {
 }
 .NYCBOROUGHS {
   text-align: center;
+}
+.boroughs {
+  display: flex;
+  justify-content: center;
+}
+.CityCulture {
+  display: flex;
+  justify-content: center;
+}
+.pictures {
+  width: 50rem;
+  height: 30rem;
+}
+.bgcolor {
+  background-color: #3d3d3d;
+  color: white;
 }
