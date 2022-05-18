@@ -8,6 +8,8 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: #3d3d3d;
+  color: white;
 }
 nav {
   position: fixed;
@@ -82,10 +84,7 @@ p {
   width: 50rem;
   height: 30rem;
 }
-.bgcolor {
-  background-color: #3d3d3d;
-  color: white;
-}
+
 .Restaurants {
   display: flex;
   justify-content: space-evenly;
@@ -104,4 +103,7 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+html {
+  scroll-behavior: smooth;
 }
