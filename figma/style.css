@@ -12,11 +12,13 @@ body,
   color: white;
 }
 nav {
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
   background-color: #3d3d3d;
+  width: 100%;
 }
 .logo {
   color: white;
