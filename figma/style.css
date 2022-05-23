@@ -11,6 +11,9 @@ body,
   background-color: #3d3d3d;
   color: white;
 }
+.head {
+  z-index: 0;
+}
 nav {
   position: fixed;
   display: flex;
@@ -19,18 +22,19 @@ nav {
   min-height: 8vh;
   background-color: #3d3d3d;
   width: 100%;
+  z-index: 10;
 }
 .logo {
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
 }
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 50%;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .nav-links li {
   list-style: none;
@@ -131,6 +135,9 @@ p {
 html {
   scroll-behavior: smooth;
 }
+.emptysections {
+  padding-top: 10rem;
+}
 
 @media screen and (max-width: 1024px) {
   .nav-links {
@@ -175,11 +182,11 @@ html {
   }
 }
 .toggle .line1 {
-  tranform: rotate(-45deg) translate(-5px,6px);
+  tranform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
-  tranform: rotate(45deg) translate(-5px,6px);
+  tranform: rotate(45deg) translate(-5px, 6px);
 }
