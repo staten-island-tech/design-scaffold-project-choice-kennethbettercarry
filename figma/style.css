@@ -148,70 +148,6 @@ html {
   body {
     overflow-x: hidden;
   }
-  section{
-    display: block;
-  }
-  .CityCulture{
-    display: block;
-  }
-  .CityCulture img{
-    margin-left: 2rem;
-  }
-  .CityCulture .description p{
-    margin-left: 3rem;
-  }
-  .FoodsToTry{
-    display: block;
-  }
-  .FoodsToTry h3{
-    width: 20rem;
-    margin-left: 10rem;
-  }
-  .FoodsToTry img{
-    margin-left: 2rem;
-  }
-  .FoodsToTry .description p{
-    margin-left: 3rem;
-  }
-  .description{
-    text-align: center;
-    width: 25rem;
-  }
-  .description p{
-    text-align: left;
-    width: 35rem;
-    margin-top: 5rem;
-    margin-left: -5rem;
-    size: 3rem;
-  }
-  .boroughs{
-    display: block;
-  }
-  .boroughs p{
-    margin-left: 3rem;
-  }
-  .boroughs h3{
-    width: 20rem;
-    margin-left: 8rem;
-  }
-  .boroughs img{
-    margin-left: 2rem;
-  }
-  section img{
-    margin-top: 5rem;
-    width: 40rem;
-    height: 25rem;
-    margin-left: -8rem;
-  }
-  .pictures{
-    margin-top: 5rem;
-    width: 40rem;
-    height: 25rem;
-    margin-left: -8rem;
-  }
-  .header-container{
-    text-align: center;
-  }
   .nav-links {
     position: absolute;
     right: 0rem;
@@ -246,11 +182,11 @@ html {
   }
 }
 .toggle .line1 {
-  tranform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
-  tranform: rotate(45deg) translate(-5px, 6px);
+  transform: rotate(45deg) translate(-5px, 6px);
 }
