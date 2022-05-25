@@ -117,12 +117,12 @@ p {
   width: 100%;
   font-size: 1.8rem;
 }
-.descriptionculture{
+.descriptionculture {
   text-align: center;
   padding: 2rem;
   width: 40%;
 }
-.descriptionculture p{
+.descriptionculture p {
   width: 100%;
   font-size: 1.8rem;
 }
@@ -180,18 +180,18 @@ html {
 .emptysections {
   padding-top: 10rem;
 }
-.footer{
+.footer {
   padding: 7rem 0;
 }
-.rowfooter{
+.rowfooter {
   display: flex;
   flex-wrap: wrap;
 }
-.footer-col{
+.footer-col {
   width: 25%;
-  padding: 0 1.5rem;
+  padding: 0 5rem;
 }
-.footer-col h4{
+.footer-col h4 {
   font-size: 2rem;
   color: white;
   text-transform: capitalize;
@@ -199,20 +199,20 @@ html {
   font-weight: 500;
   position: relative;
 }
-.footer-col h4::before{
-  content: '';
+.footer-col h4::before {
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1rem;
   background-color: white;
-  height: .2rem;
+  height: 0.2rem;
   box-sizing: border-box;
-  width: 7rem;
+  width: rem;
 }
-.footer-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child) {
   margin-bottom: 1rem;
 }
-.footer-col ul li a{
+.footer-col ul li a {
   font-size: 1.8rem;
   text-transform: capitalize;
   color: white;
@@ -221,11 +221,11 @@ html {
   color: #bbbbbb;
   display: block;
 }
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
   color: white;
-  padding-left: .8rem;
+  padding-left: 0.8rem;
 }
-.footer-col .social-links a{
+.footer-col .social-links a {
   display: inline-block;
   height: 4rem;
   width: 4rem;
@@ -236,7 +236,7 @@ html {
   color: white;
   transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+.footer-col .social-links a:hover {
   color: #30333b;
   background-color: white;
 }
@@ -255,12 +255,12 @@ html {
     width: 100%;
     font-size: 1.8rem;
   }
-  .descriptionculture{
+  .descriptionculture {
     text-align: center;
     padding: 2rem;
     width: 40%;
   }
-  .descriptionculture p{
+  .descriptionculture p {
     width: 100%;
     font-size: 1.8rem;
   }
@@ -274,8 +274,7 @@ html {
   .description p {
     text-align: left;
     width: 100%;
-    font-size: 1.8rem
-    ;
+    font-size: 1.8rem;
   }
   .descriptionfood {
     text-align: center;
@@ -300,20 +299,19 @@ html {
     width: 100%;
     font-size: 1.8rem;
   }
-  .descriptionculture{
+  .descriptionculture {
     text-align: center;
     padding: 2rem;
     width: 100%;
   }
-  .descriptionculture p{
+  .descriptionculture p {
     width: 100%;
     font-size: 1.8rem;
   }
-  .pictures{
+  .pictures {
     width: 40rem;
     height: 25rem;
   }
-  
 }
 @media screen and (max-width: 768px) {
   body {
@@ -338,7 +336,7 @@ html {
   .Lined {
     display: block;
   }
-  .pictures{
+  .pictures {
     width: 30rem;
     height: 22.5rem;
   }
@@ -363,16 +361,15 @@ html {
   .description p {
     text-align: left;
     width: 100%;
-    font-size: 1.35rem
-    ;
+    font-size: 1.35rem;
   }
-  .footer-col{
+  .footer-col {
     width: 50%;
     margin-bottom: 3rem;
   }
 }
-@media(max-width:380px){
-  .footer-col{
+@media (max-width: 380px) {
+  .footer-col {
     width: 80%;
     margin-bottom: 3rem;
   }
