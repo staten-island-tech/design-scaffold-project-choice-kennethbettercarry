@@ -25,3 +25,26 @@ const navSlide = () => {
 };
 
 navSlide();
+const pictures = gsap.utils.toArray(".pictures");
+gsap.set(pictures, { autoAlpha: 0, y: 50 });
+
+pictures.forEach((pictures, i) => {
+  const anim = gsap.to(pictures, {
+    duration: 3,
+    autoAlpha: 1,
+    y: 0,
+    paused: true,
+  });
+  ScrollTrigger.create({
+    trigger: pictures,
+    end: "bottom bottom",
+    once: true,
+    onEnter: (self) => {
+      self.progress === 1 ? anim.progress(1) : anim.play();
+    },
+  });
+});
+const tl = gsap.timeline({ scrollTrigger: ".emptysections", delay: 1.0 });
+
+tl.from(".header", { opacity: 0, duration: 0.2 });
+tl.from(".description", { opacity: 0, duration: 0.5 });

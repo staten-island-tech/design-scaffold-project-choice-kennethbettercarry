@@ -240,6 +240,14 @@ html {
   background-color: white;
 }
 
+@keyframes example {
+  from {
+    transform: scaleX(0.1) scaleY(0.1);
+  }
+  to {
+    transform: scaleX(1) scaleY(1);
+  }
+}
 @media screen and (max-width: 1560px) {
   .nav-links {
     width: 70%;
