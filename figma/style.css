@@ -103,8 +103,7 @@ p {
 .boroughs {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  margin: 1rem auto;
+  width: 100%;
   flex-wrap: wrap;
 }
 .descriptionborough {
@@ -129,13 +128,13 @@ p {
 .CityCulture {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  margin: 1rem auto;
+  width: 100%;
   flex-wrap: wrap;
 }
 .pictures {
   width: 50rem;
   height: 30rem;
+  transform-origin: left;
 }
 
 .Restaurants {
@@ -286,6 +285,12 @@ html {
   .picturesfood {
     width: 30rem;
     height: 20rem;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
   }
 }
 @media screen and (max-width: 1024px) {
