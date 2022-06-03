@@ -90,6 +90,7 @@ nav {
   text-align: left;
   width: 100%;
   font-size: 1.8rem;
+
 }
 .map {
   margin: 5%;
@@ -142,6 +143,7 @@ p {
   width: 50rem;
   height: 30rem;
   transform-origin: left;
+  
 }
 
 .Restaurants {
@@ -458,7 +460,7 @@ body{
     margin: 3.5rem auto;
   }
   .description p {
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 1.35rem;
   }
