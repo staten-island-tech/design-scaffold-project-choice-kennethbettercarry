@@ -11,12 +11,12 @@ body,
   background-color: #3d3d3d;
   color: white;
 }
-.picturesfood { 
-	transition: all .2s ease-in-out; 
+.picturesfood {
+  transition: all 0.2s ease-in-out;
 }
-.picturesfood:hover { 
+.picturesfood:hover {
   border-radius: 2rem;
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 .head {
   z-index: 0;
@@ -78,6 +78,7 @@ nav {
   position: absolute;
   color: white;
   z-index: 0;
+  text-align: center;
 }
 .description {
   text-align: center;
@@ -246,7 +247,7 @@ html {
   color: #30333b;
   background-color: white;
 }
-+:root {
++ :root {
   --primary-color: #553434;
   --secondary-color: #867777;
   --font-color: #ddbebe;
@@ -263,12 +264,11 @@ html {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-
 }
-h1{
+h1 {
   font-size: 2rem;
   font-family: Andale Mono, monospace;
-  color: var(--font-color)
+  color: var(--font-color);
 }
 .theme-switch {
   display: inline-block;
@@ -278,7 +278,7 @@ h1{
 }
 
 .theme-switch input {
-  display:none;
+  display: none;
 }
 
 .slider {
@@ -289,7 +289,7 @@ h1{
   position: absolute;
   right: 0;
   top: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -299,7 +299,7 @@ h1{
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: .4s;
+  transition: 0.4s;
   width: 26px;
 }
 
@@ -317,13 +317,14 @@ input:checked + .slider:before {
 
 .dark-mode {
   background-color: rgb(172, 124, 124);
-  color: rgb(255, 255, 255);}
+  color: rgb(255, 255, 255);
+}
 
 .slider.round:before {
   border-radius: 50%;
 }
 
-body{
+body {
   background-color: var(--bg-color);
 }
 @keyframes example {
